@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papple</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar starts -->
+
+
+    <header class="header">
+        <div>
+            <a href="#" class="logo" id="logo"><i class="fa-brands fa-apple"></i> Papple</a>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="feature.html">Features</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact us</a>
+
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menubtn"></div>
+            <div class="fas fa-search" id="searchbtn"></div>
+            <div class="fas fa-shopping-cart" id="shoppingbtn"></div>
+            <a href="login.html" id="login--button">Login</a>
+        </div>
+        </div>
+        <form action="" class="search">
+            <input placeholder="Search here..." id="search" type="search">
+            <label for="search" class="fas fa-search"></label>
+        </form>
+
+        <div class="shoppingcart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/macbook.png">
+                <div class="content">
+                    <h3>Macbook pro</h3>
+                    <span class="price">$799/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/airpodspro.png">
+                <div class="content">
+                    <h3>Airpods pro</h3>
+                    <span class="price">$199/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/iphone14.png">
+                <div class="content">
+                    <h3>Iphone 14 </h3>
+                    <span class="price">$599/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="total">Total : $1499/- </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        </div>
+    </header>
+
+
+
+    <!-- Navbar ends -->
+
+    <section class="product" id="feaurePhoto">
+        <img class="product--img" src="images/contact.jpg" alt="feature">
+        <div class="product--content">
+            <h3>Contact <span>Us</span> To clear your queries</h3>
+            <p>
+                We are always here...
+            </p>
+        </div>
+    </section>
+
+
+    <!-- contact us starts -->
+    <div class="contactus">
+        <h1>Connect with us</h1>
+        <p>
+            We will respond to you shortly and it is our pleasure to be able to help you.
+        </p>
+        <div class="form">
+        <div class="form--part">
+            <form action="" onsubmit="contact(event)">
+                <h1>Send your request</h1>
+                <label>Username</label><br>
+                <input placeholder="" type="text" required autocomplete="off" id="username"><br>
+                <label>Phone</label><br>
+                <input placeholder="" type="text" required autocomplete="off" id="email"><br>
+                <label>Email</label><br>
+                <input placeholder="" type="text" required autocomplete="off" id="message"><br>
+                <label>Message</label><br>
+                <textarea placeholder=""></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="reach">
+                <h1 style="color: aliceblue;font-weight: 400; letter-spacing: 3px;font-size: 3rem;">Reach Us</h1>
+                <p>Email: neupanenischal2@gmail.com</p>
+                <p>Phone: +977 9848591461</p>
+                <p>Address: Kathmandu, Nepal, 44600</p>
+        </div>
+        </div>
+    </div>
+
+        <!--Footer starts-->
+        <section class="footer">
+            <div class="boxcontainer">
+                <div class="box">
+                    <h3> <i class="fab fa-apple"></i> Papple</h3>
+                    <p>Discover the innovative world of Papple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV,
+                        plus explore accessories and entertainment...</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                        <a href="#" class="fab fa-tiktok"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>Contact Info</i></h3>
+                    <a href="#" class="links"><i class="fas fa-phone"></i> +977 9812345789</a>
+                    <a href="#" class="links"><i class="fas fa-phone"></i> +977 9809876543</a>
+                    <a href="#" class="links"><i class="fas fa-envelope"></i> nischalneupane@gmail.com</a>
+                    <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Basundhara,KTM</a>
+                </div>
+                <div class="box">
+                    <h3>Quick Links</i></h3>
+                    <a href="index.html" class="links"><i class="fas fa-arrow-right"></i> Home</a>
+                    <a href="feature.html" class="links"><i class="fas fa-arrow-right"></i> Features</a>
+                    <a href="products.html" class="links"><i class="fas fa-arrow-right"></i> Products</a>
+                    <a href="contact.html" class="links"><i class="fas fa-arrow-right"></i> contact Us</a>
+                </div>
+                <div class="box">
+                    <h3>Newsletter</i></h3>
+                    <p>Subscribe for latest updates</p>
+                    <input type="email" placeholder="Your Email" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                    <img src="images/payment.png" class="payment">
+                </div>
+        
+            </div>
+            <div class="credit">Created BY <span>NISCHAL NEUPANE</span> | All rights reserved |</div>
+        </section>
+        <!--Footer ends-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
